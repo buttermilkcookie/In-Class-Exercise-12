@@ -62,7 +62,7 @@ section {
 
 .group {
   height: 300px;
-  width: 100%;
+  width: 75%;
   display: flex;
   font-size: 30px;
   text-align: center;
@@ -96,7 +96,7 @@ section {
 
 .work {
   height: 300px;
-  width: 150%;
+  width: 100%;
   display: flex;
   font-size: 30px;
   text-align: center;
@@ -127,6 +127,7 @@ section {
   background-image: url("https://i.etsystatic.com/17970214/c/2238/1777/398/1179/il/c61658/5645131336/il_340x270.5645131336_4e50.jpg");
   color:black;
 }
+
 
 footer {
   width: 100%;
