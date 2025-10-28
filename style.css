@@ -60,3 +60,37 @@ section {
   text-transform: lowercase;
   font-size: 20px;
 }
+
+.group {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  font-size: 24px;
+  text-align: center;
+}
+
+.bird, .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.bird {
+  flex: 1 20px;
+  padding-top: 30px;
+  color: white;
+}
+
+.one {
+  background-image: url("https://lafeber.com/pet-birds/wp-content/uploads/2018/06/Hahns-Macaw-300x300.jpg");
+  color: white;
+}
+
+.two {
+  background-image: url("https://lafeber.com/pet-birds/wp-content/uploads/2018/06/Red-Factor-Canary-300x300.jpg");
+  color: white;
+}
+
+.three {
+  background-image: url("https://lafeber.com/pet-birds/wp-content/uploads/2018/06/Pionus-300x300.jpg");
+  color: white;
+}
