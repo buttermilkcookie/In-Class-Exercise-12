@@ -57,7 +57,6 @@ section {
 
 .header h2 {
   color: #699194;
-  text-transform: lowercase;
   font-size: 20px;
 }
 
@@ -65,7 +64,7 @@ section {
   height: 300px;
   width: 100%;
   display: flex;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -92,5 +91,64 @@ section {
 
 .three {
   background-image: url("https://lafeber.com/pet-birds/wp-content/uploads/2018/06/Pionus-300x300.jpg");
+  color:white;
+}
+
+.work {
+  height: 300px;
+  width: 150%;
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+}
+
+.project, .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.project {
+  flex: 1 20px;
+  padding-top: 30px;
   color: white;
+}
+
+.stickers {
+  background-image: url("https://m.media-amazon.com/images/I/81RPbqw72fL.jpg");
+  color: black;
+}
+
+.shirts {
+  background-image: url("https://i.etsystatic.com/14255513/r/il/86a497/5704127722/il_fullxfull.5704127722_8vqg.jpg");
+  color: black;
+}
+
+.keychains {
+  background-image: url("https://i.etsystatic.com/17970214/c/2238/1777/398/1179/il/c61658/5645131336/il_340x270.5645131336_4e50.jpg");
+  color:black;
+}
+
+footer {
+  width: 100%;
+  height: 230px;
+  background-color: black;
+  color: white;
+  margin-top: 150px;
+  padding-top: 100px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #56C489;
+}
+
+.footer-content {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
