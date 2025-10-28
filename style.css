@@ -71,6 +71,7 @@ section {
 .bird, .image {
   background-size: cover;
   background-position: center;
+  
 }
 
 .bird {
@@ -95,37 +96,37 @@ section {
 }
 
 .work {
-  height: 300px;
-  width: 100%;
   display: flex;
-  font-size: 30px;
-  text-align: center;
+  justify-content: space-between;
 }
 
-.project, .image {
-  background-size: cover;
-  background-position: center;
+.container {
+  width: 100%;
 }
 
-.project {
-  flex: 1 20px;
-  padding-top: 30px;
-  color: white;
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 2rem;
 }
 
-.stickers {
+.container p {
+  font-size: 2rem;
+  color: black;
+  position: relative;
+  top: -45px;
+}
+
+.first {
   background-image: url("https://m.media-amazon.com/images/I/81RPbqw72fL.jpg");
-  color: black;
 }
 
-.shirts {
+.second {
   background-image: url("https://i.etsystatic.com/14255513/r/il/86a497/5704127722/il_fullxfull.5704127722_8vqg.jpg");
-  color: black;
 }
 
-.keychains {
+.third {
   background-image: url("https://i.etsystatic.com/17970214/c/2238/1777/398/1179/il/c61658/5645131336/il_340x270.5645131336_4e50.jpg");
-  color:black;
 }
 
 
@@ -147,9 +148,39 @@ footer a:hover {
   color: #56C489;
 }
 
-.footer-content {
+.footer-stuff {
   width: 50vw;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-content {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-button-copyright {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-button {
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  border-radius: 3rem;
+  color: black;
+  background: #56C489;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 1rem;
+  text-align: right;
+  color:#56C489;
 }
